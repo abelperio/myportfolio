@@ -20,7 +20,7 @@ h2{
 }
 
 body {
-   font-family: Arial, Helvetica, sans-serif;
+   background-color:#FFE6FF;   font-family: Arial, Helvetica, sans-serif;
    display: flex;
    flex-direction: column;
 }
