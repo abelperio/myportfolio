@@ -5,6 +5,7 @@ h1 {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
@@ -21,10 +22,10 @@ nav ul{
     padding: 0 0 0 0;
 }
 
-a:link, a:visited{
+nav ul li a:link, a:visited{
     color: #D8F3FF;
 }
-a:hover {
+nav ul li a:hover {
     color: #8DB7E8;
 }
 
@@ -38,12 +39,34 @@ body {
    display: flex;
    flex-direction: column;
    background-color: white;
+   margin-top: 0%;
+   margin-left: 0%;
+   margin-right: 0%;
 }
 
 .about-me {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1%;
     
+    
+}
+
+
+
+section ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section ul li a:link, a:visited {
+    color: #8DB7E8
+}
+section ul li a:hover{
+    color: #5682B0;
 }
 
 @media screen and (max-width:768px) {
