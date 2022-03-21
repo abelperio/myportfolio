@@ -47,31 +47,52 @@ body {
 
 .about-me {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
-    padding: 1%;
-    
-    
+    justify-content: right;
+    padding: 1%;    
 }
 
+.about-me img{
+    max-width: 50%;
+    height: auto;
+    width: auto\9;max
+}
 
+.my-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-section ul {
+.my-portfolio a:hover {
+    opacity: 0.3;
+}
+
+.my-portfolio img {
+    max-width: 100%;
+    height: 280px;
+}
+
+.contact-me ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-section ul li a:link, a:visited {
+.contact-me ul li a:link, a:visited {
     color: #8DB7E8
 }
-section ul li a:hover{
+.contact-me ul li a:hover{
     color: #5682B0;
 }
 
 @media screen and (max-width:768px) {
     header{
         flex-direction: column;
+    }
+    .about-me{
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 }
