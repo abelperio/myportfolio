@@ -62,6 +62,8 @@ body {
 .my-portfolio {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around; 
+    row-gap: 30px;
 }
 
 .my-portfolio a:hover {

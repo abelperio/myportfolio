@@ -8,4 +8,4 @@ The major take away from this project is that I have a whole bunch of work ahead
 
 https://abelperio.github.io/myportfolio/
 
-![alt text](./assets/my-portfolio.png)
+![alt text](./assets/images/my-portfolio.png)
